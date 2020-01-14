@@ -2,12 +2,20 @@
   font-family: "Sacramento", cursive;
 }
 
-button {
+.name {
   font-family: "Sacramento", cursive;
+  font-size: 100px;
+}
+button {
+  font-family: "Quicksand", sans-serif;
 }
 
 p {
   font-family: "Quicksand", sans-serif;
+}
+
+.selfie {
+  height: 60vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {

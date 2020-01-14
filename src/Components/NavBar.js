@@ -4,16 +4,16 @@ function NavBar() {
   return (
     <p>
       <Link to="/">
-        <button>Home</button>
+        <button>HOME</button>
       </Link>
       <Link to="/about">
-        <button>About</button>
+        <button>ABOUT</button>
       </Link>
       <Link to="/projects">
-        <button>Projects</button>
+        <button>PROJECTS</button>
       </Link>
       <Link to="/contact">
-        <button>Contact</button>
+        <button>CONTACT</button>
       </Link>
     </p>
   );
