@@ -1,12 +1,11 @@
 .title {
   font-family: "Sacramento", cursive;
   color: #b68fa2;
-  font-size: 300%;
+  font-size: 200%;
 }
 
 .name {
   font-family: "Sacramento", cursive;
-  font-size: 120px;
 }
 button {
   font-family: "Quicksand", sans-serif;
@@ -18,4 +17,16 @@ p {
 
 .selfie {
   height: 60vh;
+}
+
+.App {
+  background-color: #333b3e;
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

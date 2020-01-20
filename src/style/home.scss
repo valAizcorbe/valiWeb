@@ -2,9 +2,19 @@ $pink: #b68fa2;
 $gray: #333b3e;
 $texto: #acbcb1;
 
+@mixin header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .name {
   color: $pink;
   background-color: $gray;
+  margin: 0;
+  font-size: 10vh;
+  margin-left: 10vh;
+  display: flex;
 }
 
 .home {
@@ -33,4 +43,13 @@ $texto: #acbcb1;
   height: 30%;
   border-radius: 50%;
   display: inline-block;
+}
+
+.lista {
+  @include header();
+  width: 40vh;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.123);
+  border-radius: 1%;
+  margin-left: 3%;
 }

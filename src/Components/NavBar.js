@@ -5,16 +5,16 @@ function NavBar() {
   return (
     <p className="navbar">
       <Link to="/">
-        <button>HOME</button>
+        <button className="nav-button">HOME</button>
       </Link>
       <Link to="/about">
-        <button>ABOUT</button>
+        <button className="nav-button">ABOUT</button>
       </Link>
       <Link to="/projects">
-        <button>PROJECTS</button>
+        <button className="nav-button">PROJECTS</button>
       </Link>
       <Link to="/contact">
-        <button>CONTACT</button>
+        <button className="nav-button">CONTACT</button>
       </Link>
     </p>
   );

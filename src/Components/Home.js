@@ -15,19 +15,22 @@ function Home() {
       <dl className="texto-skills">
         Here are some the languages I've been working with
       </dl>
-      <dt className="skills">HTML5</dt>
-      <dd className="skills">CSS3</dd>
-      <dt className="skills">SASS</dt>
-      <dd className="skills">NODE</dd>
-      <dt className="skills">EXPRESS</dt>
-      <dd className="skills">EXPRESS-SESSIONS</dd>
-      <dt className="skills">JAVASCRIPT</dt>
-      <dd className="skills">REACT</dd>
-      <dt className="skills">REACT-REDUX</dt>
-      <dd className="skills">CHARTJS</dd>
-      <dt className="skills">SQL</dt>
-      <dd className="skills">BCRYPT</dd>
-      <dt className="skills">JEST</dt>
+      <div className="lista">
+        <dt className="skills">HTML5</dt>
+        <dd className="skills">CSS3</dd>
+        <dt className="skills">SASS</dt>
+        <dd className="skills">NODE</dd>
+        <dt className="skills">EXPRESS</dt>
+        <dd className="skills">EXPRESS-SESSIONS</dd>
+        <dt className="skills">JAVASCRIPT</dt>
+        <dd className="skills">REACT</dd>
+        <dt className="skills">REACT-REDUX</dt>
+        <dd className="skills">CHARTJS</dd>
+        <dt className="skills">SQL</dt>
+        <dd className="skills">BCRYPT</dd>
+        <dt className="skills">JEST</dt>
+      </div>
+
       <h1 className="title">
         {" "}
         Hey! I'm currently available for freelance work

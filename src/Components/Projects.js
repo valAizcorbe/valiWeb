@@ -46,7 +46,7 @@ function Projects() {
         NODE, EXPRESS, BCRYPT, MASSIVE.
       </p>
       <a href="http://138.68.232.15:4200/#/">
-        <h1>Artistry Website</h1>
+        <h1 className="texto">Artistry Website</h1>
       </a>
 
       <h3 className="title">See more about my work</h3>

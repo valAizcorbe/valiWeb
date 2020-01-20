@@ -9,13 +9,6 @@ function App() {
   return (
     <HashRouter>
       <span className="App">
-        <head>
-          f631708d59
-          <script
-            src="https://kit.fontawesome.com/f631708d59.js"
-            crossorigin="anonymous"
-          ></script>
-        </head>
         <link
           href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
           rel="stylesheet"
@@ -25,7 +18,7 @@ function App() {
           rel="stylesheet"
         ></link>
         <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald&display=swap"
+          href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100|Oswald&display=swap"
           rel="stylesheet"
         ></link>
         <NavBar />

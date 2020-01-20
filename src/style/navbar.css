@@ -1,4 +1,22 @@
 .navbar {
   background-color: #333b3e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10vw;
+  margin: 0;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: #acbcb1;
 }
 /*# sourceMappingURL=navbar.css.map */
