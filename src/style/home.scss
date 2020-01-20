@@ -1,0 +1,36 @@
+$pink: #b68fa2;
+$gray: #333b3e;
+$texto: #acbcb1;
+
+.name {
+  color: $pink;
+  background-color: $gray;
+}
+
+.home {
+  background-color: $gray;
+}
+
+.texto {
+  color: $texto;
+}
+
+.texto-skills {
+  color: $texto;
+}
+
+.texto-final {
+  color: $texto;
+}
+
+.skills {
+  color: #d5c7bc;
+  font-family: "Quicksand", sans-serif;
+}
+
+.selfie {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  display: inline-block;
+}

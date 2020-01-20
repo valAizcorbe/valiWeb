@@ -1,0 +1,33 @@
+.name {
+  color: #b68fa2;
+  background-color: #333b3e;
+}
+
+.home {
+  background-color: #333b3e;
+}
+
+.texto {
+  color: #acbcb1;
+}
+
+.texto-skills {
+  color: #acbcb1;
+}
+
+.texto-final {
+  color: #acbcb1;
+}
+
+.skills {
+  color: #d5c7bc;
+  font-family: "Quicksand", sans-serif;
+}
+
+.selfie {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  display: inline-block;
+}
+/*# sourceMappingURL=home.css.map */
