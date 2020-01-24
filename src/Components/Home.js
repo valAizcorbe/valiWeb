@@ -21,7 +21,7 @@ function Home() {
 
       <div className="section-s">
         <p className="text-final">
-          Here are some the languages I've been working with:
+          Here are some the languages and tools I've worked with:
         </p>
 
         <div className="text-skills">

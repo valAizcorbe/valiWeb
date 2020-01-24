@@ -1,7 +1,7 @@
 $pink: #b68fa2;
 $gray: #333b3e;
 $almond: #f3dbcf;
-$text: #acbcb1;
+$button: #e0c3b9;
 $purple: #755f73;
 
 @mixin text {
@@ -48,7 +48,6 @@ $purple: #755f73;
 
 .text-final {
   text-align: center;
-  margin: 0;
   @include text();
   margin: 1%;
   @include display-center();
@@ -63,7 +62,6 @@ $purple: #755f73;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 1%;
   font-weight: bold;
 
   @include text();
@@ -83,7 +81,7 @@ $purple: #755f73;
 .information {
   border: 2px solid $purple;
   border-radius: 5%;
-  background-color: $almond;
+  background-color: $button;
   padding: 10%;
   margin: 2%;
   font-weight: bolder;
@@ -118,7 +116,7 @@ footer {
 .contact {
   border: 2px solid $purple;
   border-radius: 5%;
-  background-color: $almond;
+  background-color: $button;
   width: 150px;
   padding: 10%;
   margin: 2%;
