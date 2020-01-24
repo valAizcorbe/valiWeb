@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <p className="navbar">
       <Link to="/">
-        <button className="nav-button">HOME</button>
+        <button className="nav-button">VALERIA AIZCORBE</button>
       </Link>
       <Link to="/about">
         <button className="nav-button">ABOUT</button>

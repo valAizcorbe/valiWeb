@@ -1,0 +1,12 @@
+.project {
+  height: 100%;
+  width: 100%;
+}
+
+.github {
+  width: 40%;
+  height: 35%;
+  background-color: rgba(255, 255, 255, 0.123);
+  border-radius: 1%;
+}
+/*# sourceMappingURL=project.css.map */

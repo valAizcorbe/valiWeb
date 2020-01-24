@@ -8,22 +8,15 @@ import { HashRouter } from "react-router-dom";
 function App() {
   return (
     <HashRouter>
-      <span className="App">
+      <div className="App">
         <link
-          href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+          href="https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One&display=swap"
           rel="stylesheet"
-        ></link>
-        <link
-          href="https://fonts.googleapis.com/css?family=Sacramento&display=swap"
-          rel="stylesheet"
-        ></link>
-        <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100|Oswald&display=swap"
-          rel="stylesheet"
-        ></link>
+        />
+
         <NavBar />
         {routes}
-      </span>
+      </div>
     </HashRouter>
   );
 }

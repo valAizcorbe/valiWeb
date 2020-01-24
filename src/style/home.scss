@@ -1,55 +1,131 @@
 $pink: #b68fa2;
 $gray: #333b3e;
-$texto: #acbcb1;
+$almond: #f3dbcf;
+$text: #acbcb1;
+$purple: #755f73;
 
-@mixin header {
+@mixin text {
+  color: $purple;
+  font-family: "Open Sans", sans-serif;
+}
+
+@mixin title {
+  color: $purple;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+}
+
+@mixin display-center {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
-
-.name {
-  color: $pink;
-  background-color: $gray;
-  margin: 0;
-  font-size: 10vh;
-  margin-left: 10vh;
-  display: flex;
-}
-
 .home {
-  background-color: $gray;
-}
-
-.texto {
-  color: $texto;
-}
-
-.texto-skills {
-  color: $texto;
-}
-
-.texto-final {
-  color: $texto;
-}
-
-.skills {
-  color: #d5c7bc;
-  font-family: "Quicksand", sans-serif;
+  background-color: $almond;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .selfie {
-  width: 30%;
   height: 30%;
+  width: 30%;
   border-radius: 50%;
-  display: inline-block;
 }
 
-.lista {
-  @include header();
-  width: 40vh;
+.pic-about {
+  @include display-center();
+  margin: 2%;
+  background-color: $almond;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.123);
-  border-radius: 1%;
-  margin-left: 3%;
+  height: 100%;
+}
+
+.text-about {
+  text-align: center;
+  @include text();
+}
+
+.text-final {
+  text-align: center;
+  margin: 0;
+  @include text();
+  margin: 1%;
+  @include display-center();
+  flex-direction: column;
+}
+.section-s {
+  @include display-center();
+  flex-direction: column;
+  margin: 1%;
+}
+.text-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1%;
+  font-weight: bold;
+
+  @include text();
+}
+.column-1 {
+  margin: 5%;
+  text-align: center;
+}
+
+.text-end {
+  @include title();
+  text-align: center;
+
+  font-weight: bolder;
+}
+
+.information {
+  border: 2px solid $purple;
+  border-radius: 5%;
+  background-color: $almond;
+  padding: 10%;
+  margin: 2%;
+  font-weight: bolder;
+  width: 150px;
+
+  @include title();
+}
+
+hr.dotted {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, $almond, $pink, $almond);
+}
+
+hr.dotted::after {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  transform-origin: 50% 50%;
+  padding: 1rem;
+  background-color: $almond;
+}
+
+footer {
+  @include display-center();
+  flex-direction: column;
+  margin-bottom: 2%;
+  background-color: $almond;
+}
+
+.contact {
+  border: 2px solid $purple;
+  border-radius: 5%;
+  background-color: $almond;
+  width: 150px;
+  padding: 10%;
+  margin: 2%;
+  font-weight: bolder;
+  @include title();
+}
+
+html {
+  background-color: $almond;
 }

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import recipe from "../images/recipe.mp4";
 import avalanche from "../images/avalanche.mp4";
-
+import "../style/project.css";
 function Projects() {
   return (
-    <p>
+    <p className="project">
       <a href="https://github.com/valAizcorbe/NODB">
         <h1 className="title">Recipes</h1>
       </a>
@@ -51,7 +51,10 @@ function Projects() {
 
       <h3 className="title">See more about my work</h3>
       <a href="https://github.com/settings/profile">
-        <img src="https://gocode.colorado.gov/wp-content/uploads/2017/03/github-600.png" />
+        <img
+          className="github"
+          src="https://gocode.colorado.gov/wp-content/uploads/2017/03/github-600.png"
+        />
       </a>
     </p>
   );

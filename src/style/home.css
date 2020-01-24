@@ -1,58 +1,172 @@
-.name {
-  color: #b68fa2;
-  background-color: #333b3e;
-  margin: 0;
-  font-size: 10vh;
-  margin-left: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .home {
-  background-color: #333b3e;
-}
-
-.texto {
-  color: #acbcb1;
-}
-
-.texto-skills {
-  color: #acbcb1;
-}
-
-.texto-final {
-  color: #acbcb1;
-}
-
-.skills {
-  color: #d5c7bc;
-  font-family: "Quicksand", sans-serif;
+  background-color: #f3dbcf;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .selfie {
-  width: 30%;
   height: 30%;
+  width: 30%;
   border-radius: 50%;
-  display: inline-block;
 }
 
-.lista {
+.pic-about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40vh;
+  margin: 2%;
+  background-color: #f3dbcf;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.123);
-  border-radius: 1%;
-  margin-left: 3%;
+  height: 100%;
+}
+
+.text-about {
+  text-align: center;
+  color: #755f73;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-final {
+  text-align: center;
+  margin: 0;
+  color: #755f73;
+  font-family: "Open Sans", sans-serif;
+  margin: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-s {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1%;
+}
+
+.text-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 1%;
+  font-weight: bold;
+  color: #755f73;
+  font-family: "Open Sans", sans-serif;
+}
+
+.column-1 {
+  margin: 5%;
+  text-align: center;
+}
+
+.text-end {
+  color: #755f73;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.information {
+  border: 2px solid #755f73;
+  border-radius: 5%;
+  background-color: #f3dbcf;
+  padding: 10%;
+  margin: 2%;
+  font-weight: bolder;
+  width: 150px;
+  color: #755f73;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+}
+
+hr.dotted {
+  border: none;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f3dbcf), color-stop(#b68fa2), to(#f3dbcf));
+  background-image: linear-gradient(to right, #f3dbcf, #b68fa2, #f3dbcf);
+}
+
+hr.dotted::after {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(60deg);
+          transform: translate(-50%, -50%) rotate(60deg);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  padding: 1rem;
+  background-color: #f3dbcf;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 2%;
+  background-color: #f3dbcf;
+}
+
+.contact {
+  border: 2px solid #755f73;
+  border-radius: 5%;
+  background-color: #f3dbcf;
+  width: 150px;
+  padding: 10%;
+  margin: 2%;
+  font-weight: bolder;
+  color: #755f73;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+}
+
+html {
+  background-color: #f3dbcf;
 }
 /*# sourceMappingURL=home.css.map */
