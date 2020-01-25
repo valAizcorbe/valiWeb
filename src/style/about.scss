@@ -1,0 +1,62 @@
+$pink: #b68fa2;
+$gray: #333b3e;
+$almond: #f3dbcf;
+$button: #e0c3b9;
+$purple: #755f73;
+
+.pic {
+  height: 40%;
+  width: 40%;
+  margin: 3%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@mixin display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-text {
+  @include display-center();
+  flex-direction: column;
+  margin-bottom: 2%;
+  color: $purple;
+  text-align: center;
+  padding: 10%;
+}
+
+.text-title {
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.resume {
+  background-color: transparent;
+  font-family: "Poiret One", cursive;
+  border: none;
+  font-weight: bolder;
+  border: 2px solid $purple;
+  border-radius: 5%;
+  background-color: $button;
+  padding: 5%;
+  margin: 2%;
+  font-weight: bolder;
+  width: 150px;
+}
+
+.about-info {
+  margin: 4%;
+}

@@ -1,5 +1,42 @@
 .navbar {
-  background-color: #333b3e;
+  background-color: #f3dbcf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 5vw;
+  margin: 3;
+  font-family: "Poiret One", cursive;
+}
+
+.name-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: #755f73;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  font-size: 140%;
+  padding: 20%;
+}
+
+.links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,14 +46,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  height: 10vw;
-  margin: 0;
-}
-
-.nav-button {
-  background-color: transparent;
-  border: none;
-  color: #acbcb1;
+  font-size: 70%;
 }
 /*# sourceMappingURL=navbar.css.map */

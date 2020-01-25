@@ -15,6 +15,7 @@ function App() {
         />
 
         <NavBar />
+        <hr className="dotted" />
         {routes}
       </div>
     </HashRouter>

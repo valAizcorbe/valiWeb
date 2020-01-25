@@ -1,21 +1,34 @@
-import React, { Component } from "react";
-// import { AccessAlarm, ThreeDRotation } from "material-ui-icons";
-
+import React from "react";
+import "../style/contact.css";
+import redhead from "../images/redhead.jpg";
 function Contact() {
   return (
-    <p>
-      <p className="title">Let's get in contact</p>
+    <body className="body-contact">
+      <img src={redhead} className="redhead" />
+      <div className="info-contact">
+        <h2 className="phrase">Let's get in contact</h2>
 
-      <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
-        Email me <img src="https://i.ya-webdesign.com/images/email-svg-5.png" />
-      </a>
-      <a href="https://www.linkedin.com/in/valeriaaizcorbe/">
-        <img
-          src="https://i0.wp.com/lightbulbgrip.com/wp-content/uploads/2018/11/linkedin-icon-png-transparent-background-13.png?fit=512%2C512&ssl=1
+        <button className="button-contact">
+          <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
+            Email me{" "}
+            <img
+              src="https://img.icons8.com/dotty/2x/email.png"
+              className="email"
+            />
+          </a>
+        </button>
+        <button className="button-contact">
+          <a href="https://www.linkedin.com/in/valeriaaizcorbe/">
+            Find me in Linkedin{" "}
+            <img
+              src="https://www.jing.fm/clipimg/full/200-2006266_linkedin-logo-vector-png-free-download-portrait-of.png
         "
-        />
-      </a>
-    </p>
+              className="linkedin"
+            />
+          </a>
+        </button>
+      </div>
+    </body>
   );
 }
 export default Contact;
