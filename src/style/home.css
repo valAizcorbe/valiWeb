@@ -102,7 +102,7 @@
 }
 
 .information {
-  border: 2px solid #755f73;
+  border: 1.5px solid #755f73;
   border-radius: 5%;
   background-color: #e0c3b9;
   padding: 10%;
@@ -152,7 +152,7 @@ footer {
 }
 
 .contact {
-  border: 2px solid #755f73;
+  border: 1.5px solid #755f73;
   border-radius: 5%;
   background-color: #e0c3b9;
   width: 150px;
