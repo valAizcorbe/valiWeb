@@ -8,12 +8,7 @@ $purple: #755f73;
   height: 40%;
   width: 40%;
   margin: 3%;
-}
-
-.about {
-  display: flex;
-  justify-content: center;
-  margin: 3%;
+  border-radius: 2%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -46,15 +41,14 @@ $purple: #755f73;
 .resume {
   font-family: "Poiret One", cursive;
   border: none;
-  color: $purple;
   font-weight: bolder;
   border: 1.5px solid $purple;
   border-radius: 2%;
   background-color: $button;
-  padding: 5%;
   margin: 2%;
   font-weight: bolder;
   width: 150px;
+  color: $purple;
 }
 
 .about-info {
