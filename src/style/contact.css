@@ -37,8 +37,8 @@
   width: 30%;
   border-radius: 50%;
   margin: 2%;
-  -webkit-box-shadow: 0 0 10px rgba(226, 99, 48, 0.8);
-          box-shadow: 0 0 10px rgba(226, 99, 48, 0.8);
+  -webkit-box-shadow: 0 0 10px #e0c3b9;
+          box-shadow: 0 0 10px #e0c3b9;
 }
 
 .email {

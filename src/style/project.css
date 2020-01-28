@@ -4,9 +4,184 @@
 }
 
 .github {
-  width: 40%;
-  height: 35%;
-  background-color: rgba(255, 255, 255, 0.123);
+  height: 37px;
+  width: 37px;
+  background-color: #e0c3b9;
   border-radius: 1%;
+  margin: 1%;
+}
+
+.github-button {
+  background-color: #e0c3b9;
+  border: #755f73 1.5px;
+  -webkit-box-shadow: 0 0 10px #e0c3b9;
+          box-shadow: 0 0 10px #e0c3b9;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: #755f73;
+}
+
+.title {
+  color: #755f73;
+  font-family: "Poiret One", cursive;
+  font-size: 300%;
+  font-weight: bolder;
+  margin: 4%;
+  letter-spacing: 2px;
+  text-indent: 4%;
+}
+
+.title-r {
+  color: #755f73;
+  font-family: "Poiret One", cursive;
+  font-size: 300%;
+  font-weight: bolder;
+  margin: 4%;
+  margin-right: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  letter-spacing: 2px;
+}
+
+.sec-recipe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-recipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.sec-avalanche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-avalanche {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.text-r {
+  margin: 4%;
+  color: #755f73;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+video {
+  border-radius: 1%;
+}
+
+.sec-artistry {
+  margin: 5%;
+  padding: 2%;
+  color: #755f73;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.link {
+  color: #b68fa2;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  -webkit-box-shadow: 0 0 10px #e0c3b9;
+          box-shadow: 0 0 10px #e0c3b9;
+  height: 7vh;
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e0c3b9;
+}
+
+.end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4%;
 }
 /*# sourceMappingURL=project.css.map */

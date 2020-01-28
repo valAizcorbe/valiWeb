@@ -4,13 +4,6 @@ $almond: #f3dbcf;
 $button: #e0c3b9;
 $purple: #755f73;
 
-.pic {
-  height: 40%;
-  width: 40%;
-  margin: 3%;
-  border-radius: 2%;
-}
-
 @media only screen and (max-width: 768px) {
   .about {
     display: flex;
@@ -23,6 +16,20 @@ $purple: #755f73;
   justify-content: center;
   align-items: center;
 }
+.about {
+  @include display-center();
+}
+
+.pic {
+  height: 40%;
+  width: 40%;
+  margin: 3%;
+  border-radius: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-text {
   @include display-center();
   flex-direction: column;
@@ -30,6 +37,7 @@ $purple: #755f73;
   color: $purple;
   text-align: center;
   padding: 10%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text-title {
@@ -49,6 +57,7 @@ $purple: #755f73;
   font-weight: bolder;
   width: 150px;
   color: $purple;
+  padding: 5%;
 }
 
 .about-info {

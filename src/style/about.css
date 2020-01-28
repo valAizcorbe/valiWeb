@@ -1,7 +1,11 @@
-.pic {
-  height: 40%;
-  width: 40%;
-  margin: 3%;
+@media only screen and (max-width: 768px) {
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .about {
@@ -11,17 +15,25 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
-  .about {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+.pic {
+  height: 40%;
+  width: 40%;
+  margin: 3%;
+  border-radius: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about-text {
@@ -42,6 +54,7 @@
   color: #755f73;
   text-align: center;
   padding: 10%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text-title {
@@ -53,15 +66,15 @@
 .resume {
   font-family: "Poiret One", cursive;
   border: none;
-  color: #e0c3b9;
   font-weight: bolder;
   border: 1.5px solid #755f73;
   border-radius: 2%;
   background-color: #e0c3b9;
-  padding: 5%;
   margin: 2%;
   font-weight: bolder;
   width: 150px;
+  color: #755f73;
+  padding: 5%;
 }
 
 .about-info {

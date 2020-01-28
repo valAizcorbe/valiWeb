@@ -1,11 +1,120 @@
+$pink: #b68fa2;
+$gray: #333b3e;
+$almond: #f3dbcf;
+$button: #e0c3b9;
+$purple: #755f73;
+
 .project {
   height: 100%;
   width: 100%;
 }
-
+@mixin display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .github {
-  width: 40%;
-  height: 35%;
-  background-color: rgba(255, 255, 255, 0.123);
+  height: 37px;
+  width: 37px;
+  background-color: $button;
   border-radius: 1%;
+  margin: 1%;
+}
+
+.github-button {
+  background-color: $button;
+  border: $purple 1.5px;
+  box-shadow: 0 0 10px $button;
+  width: 80%;
+  @include display-center();
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: $purple;
+}
+
+.title {
+  color: $purple;
+  font-family: "Poiret One", cursive;
+  font-size: 300%;
+  font-weight: bolder;
+  margin: 4%;
+  letter-spacing: 2px;
+  text-indent: 4%;
+}
+
+.title-r {
+  color: $purple;
+  font-family: "Poiret One", cursive;
+  font-size: 300%;
+  font-weight: bolder;
+  margin: 4%;
+  margin-right: 8%;
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 2px;
+}
+
+.sec-recipe {
+  @include display-center();
+  margin: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-recipe {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.sec-avalanche {
+  @include display-center();
+  margin: 5%;
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-avalanche {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.text-r {
+  // padding: 2%;
+  margin: 4%;
+  color: $purple;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  @include display-center();
+  flex-direction: column;
+}
+
+video {
+  border-radius: 1%;
+}
+
+.sec-artistry {
+  margin: 5%;
+  padding: 2%;
+  color: $purple;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  @include display-center();
+  flex-direction: column;
+}
+
+.link {
+  color: $pink;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  box-shadow: 0 0 10px $button;
+  height: 7vh;
+  width: 30vw;
+  @include display-center();
+  background-color: $button;
+}
+
+.end {
+  @include display-center();
+  margin: 4%;
 }
