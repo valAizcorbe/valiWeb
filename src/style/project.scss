@@ -112,6 +112,7 @@ video {
   width: 30vw;
   @include display-center();
   background-color: $button;
+  padding: 4%;
 }
 
 .end {

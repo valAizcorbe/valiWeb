@@ -63,3 +63,15 @@ $purple: #755f73;
 .about-info {
   margin: 4%;
 }
+
+.funfacts {
+  @include display-center();
+  margin: 2%;
+}
+.facts {
+  margin: 4%;
+  text-align: center;
+  width: 32%;
+  color: $purple;
+  font-family: "Open Sans", sans-serif;
+}

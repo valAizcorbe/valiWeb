@@ -44,6 +44,8 @@ $purple: #755f73;
 .text-about {
   text-align: center;
   @include text();
+  margin: 2%;
+  padding: 2%;
 }
 
 .text-final {

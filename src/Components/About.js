@@ -24,7 +24,14 @@ function About() {
           </a>
         </div>
       </div>
-
+      <hr className="dotted" />
+      <div className="funfacts">
+        <p className="facts">
+          I like to play with my puppies: Nebula and Phoebe
+        </p>
+        <p className="facts">I like to wear fun hair colors</p>
+        <p className="facts">Something something something </p>
+      </div>
       <hr className="dotted" />
       <footer>
         {" "}

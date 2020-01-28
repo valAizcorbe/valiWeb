@@ -8,7 +8,7 @@ function Projects() {
       <div className="recipes">
         {" "}
         <a href="https://github.com/valAizcorbe/NODB">
-          <h1 className="title">Recipes</h1>
+          <h2 className="title">Recipes</h2>
         </a>
         <section className="sec-recipe">
           <video
@@ -33,7 +33,7 @@ function Projects() {
       <div className="avalanche">
         {" "}
         <a href="https://github.com/valAizcorbe/Avalanche">
-          <h1 className="title-r">Avalanche</h1>
+          <h2 className="title-r">Avalanche</h2>
         </a>
         <section className="sec-avalanche">
           {" "}
@@ -63,7 +63,7 @@ function Projects() {
       <hr className="dotted" />
       <div className="artistry">
         <a href="https://github.com/VRTS-group/VRTS">
-          <h1 className="title">Artistry</h1>
+          <h2 className="title">Artistry</h2>
         </a>
         <p className="sec-artistry">
           <b>Group Project:</b> Artistry is a social media website for Artists.
@@ -76,7 +76,7 @@ function Projects() {
           </b>{" "}
           and <b>MASSIVE.</b>
           <a href="http://138.68.232.15:4200/#/">
-            <h2 className="link">Visit out website</h2>
+            <h2 className="link">Visit our website</h2>
           </a>
         </p>
       </div>

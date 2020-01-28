@@ -80,4 +80,25 @@
 .about-info {
   margin: 4%;
 }
+
+.funfacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2%;
+}
+
+.facts {
+  margin: 4%;
+  text-align: center;
+  width: 32%;
+  color: #755f73;
+  font-family: "Open Sans", sans-serif;
+}
 /*# sourceMappingURL=about.css.map */

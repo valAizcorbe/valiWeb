@@ -170,6 +170,7 @@ video {
       -ms-flex-align: center;
           align-items: center;
   background-color: #e0c3b9;
+  padding: 4%;
 }
 
 .end {
