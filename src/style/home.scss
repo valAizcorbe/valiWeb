@@ -9,6 +9,11 @@ $purple: #755f73;
   font-family: "Open Sans", sans-serif;
 }
 
+@mixin effect {
+  background-color: $almond;
+  color: $purple;
+}
+
 @mixin title {
   color: $purple;
   font-family: "Poiret One", cursive;
@@ -81,15 +86,16 @@ $purple: #755f73;
 }
 
 .information {
-  border: 1.5px solid $purple;
-  border-radius: 5%;
   background-color: $button;
-  padding: 10%;
-  margin: 2%;
-  font-weight: bolder;
-  width: 150px;
+  border: $purple 1.5px;
+  box-shadow: 0 0 10px $button;
+  width: 100%;
+  padding: 5%;
 
-  @include title();
+  @include display-center();
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: $pink;
 }
 
 hr.dotted {
@@ -113,17 +119,25 @@ footer {
   flex-direction: column;
   margin-bottom: 2%;
   background-color: $almond;
+  text-align: center;
 }
 
 .contact {
-  border: 1.5px solid $purple;
-  border-radius: 5%;
   background-color: $button;
-  width: 150px;
-  padding: 10%;
-  margin: 2%;
+  border: $purple 1.5px;
+  box-shadow: 0 0 10px $button;
+  width: 100%;
+  padding: 5%;
+
+  @include display-center();
+  font-family: "Poiret One", cursive;
   font-weight: bolder;
-  @include title();
+  color: $pink;
+}
+
+.contact:hover {
+  color: $purple;
+  background-color: $almond;
 }
 
 html {

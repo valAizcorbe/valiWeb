@@ -10,6 +10,17 @@ $purple: #755f73;
   align-items: center;
 }
 
+@mixin effect {
+  background-color: $almond;
+  color: $purple;
+}
+
+@media only screen and (max-width: 812px) {
+  .body-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .body-contact {
   @include display-center();
   flex-direction: row-reverse;
@@ -31,12 +42,16 @@ $purple: #755f73;
   height: 37px;
   width: 37px;
   border-radius: 50%;
-  background-color: rgb(82, 93, 121);
+  // background-color: rgb(82, 93, 121);
+  @include display-center();
+  margin: 2%;
 }
 
 .linkedin {
   height: 37px;
   width: 37px;
+  margin: 2%;
+  @include display-center();
 }
 
 .phrase {
@@ -45,18 +60,14 @@ $purple: #755f73;
 }
 
 .button-contact {
+  background-color: $button;
+  border: $purple 1.5px;
+  box-shadow: 0 0 10px $button;
+  width: 100%;
+  padding: 5%;
+  @include display-center();
   font-family: "Poiret One", cursive;
   font-weight: bolder;
-  font-size: 110%;
-  border: 1.5px solid $purple;
-  border-radius: 2%;
-  color: $purple;
-  background-color: $button;
-  padding: 7%;
-  margin: 4%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 11vh;
-  width: 30vw;
+  color: $pink;
+  margin: 2%;
 }

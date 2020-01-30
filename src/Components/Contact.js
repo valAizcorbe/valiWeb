@@ -8,22 +8,20 @@ function Contact() {
       <div className="info-contact">
         <h2 className="phrase">Let's get in contact</h2>
 
-        <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
+        <a
+          href="mailto:valeria.aizcorbe@gmail.com? subject=subject text"
+          className="a-block"
+        >
           <button className="button-contact">
-            Send me an email
-            <img
-              src="https://img.icons8.com/dotty/2x/email.png"
-              className="email"
-            />
+            <h2>Send me an email</h2>
           </button>
         </a>
-        <a href="https://www.linkedin.com/in/valeriaaizcorbe/">
+        <a
+          href="https://www.linkedin.com/in/valeriaaizcorbe/"
+          className="a-block"
+        >
           <button className="button-contact">
-            Find me on Linkedin{" "}
-            <img
-              src="https://www.jing.fm/clipimg/full/200-2006266_linkedin-logo-vector-png-free-download-portrait-of.png"
-              className="linkedin"
-            />
+            <h2>Find me in Linkedin </h2>
           </button>
         </a>
       </div>

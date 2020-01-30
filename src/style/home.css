@@ -104,16 +104,24 @@
 }
 
 .information {
-  border: 1.5px solid #755f73;
-  border-radius: 5%;
   background-color: #e0c3b9;
-  padding: 10%;
-  margin: 2%;
-  font-weight: bolder;
-  width: 150px;
-  color: #755f73;
+  border: #755f73 1.5px;
+  -webkit-box-shadow: 0 0 10px #e0c3b9;
+          box-shadow: 0 0 10px #e0c3b9;
+  width: 100%;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Poiret One", cursive;
   font-weight: bolder;
+  color: #b68fa2;
 }
 
 hr.dotted {
@@ -151,19 +159,33 @@ footer {
           flex-direction: column;
   margin-bottom: 2%;
   background-color: #f3dbcf;
+  text-align: center;
 }
 
 .contact {
-  border: 1.5px solid #755f73;
-  border-radius: 5%;
   background-color: #e0c3b9;
-  width: 150px;
-  padding: 10%;
-  margin: 2%;
-  font-weight: bolder;
-  color: #755f73;
+  border: #755f73 1.5px;
+  -webkit-box-shadow: 0 0 10px #e0c3b9;
+          box-shadow: 0 0 10px #e0c3b9;
+  width: 100%;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Poiret One", cursive;
   font-weight: bolder;
+  color: #b68fa2;
+}
+
+.contact:hover {
+  color: #755f73;
+  background-color: #f3dbcf;
 }
 
 html {

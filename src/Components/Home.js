@@ -11,10 +11,13 @@ function Home() {
         <p className="text-about">
           I'm a bilingual full stack web developer based in American Fork, Utah.
           I'm passionate about my career and can't wait to learn more about the
-          latest technologies available and keep growing as a developer.
+          latest technologies available, best coding practices and keep growing
+          as a developer.
         </p>
         <Link to="/about">
-          <button className="information">LEARN MORE</button>
+          <button className="information">
+            <h3>LEARN MORE</h3>
+          </button>
         </Link>
       </div>
       <hr className="dotted" />
@@ -31,6 +34,7 @@ function Home() {
 
             <p className="skills">NODE</p>
             <p className="skills">BCRYPT </p>
+            <p className="skills">HEROKU</p>
           </div>
 
           <div className="column-1">
@@ -38,6 +42,8 @@ function Home() {
             <p className="skills">SESSIONS</p>
             <p className="skills">JAVASCRIPT</p>
             <p className="skills">REACT</p>
+            <p className="skills">POSTMAN</p>
+            <h3 className="text-final">VS CODE</h3>
           </div>
 
           <div className="column-1">
@@ -45,6 +51,7 @@ function Home() {
             <p className="skills">SQL</p>
             <p className="skills">REDUX</p>
             <p className="skills">JEST </p>
+            <p className="skills">MASSIVE</p>
           </div>
         </div>
       </div>
@@ -59,7 +66,9 @@ function Home() {
           If you have a project in mind, I could help! Let's get in touch.
         </p>
         <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
-          <button className="contact">CONTACT ME</button>
+          <button className="contact">
+            <h3>CONTACT ME</h3>
+          </button>
         </a>
       </footer>
     </body>

@@ -4,6 +4,10 @@ $almond: #f3dbcf;
 $button: #e0c3b9;
 $purple: #755f73;
 
+@mixin effect {
+  background-color: $almond;
+  color: $purple;
+}
 .project {
   height: 100%;
   width: 100%;
@@ -25,7 +29,8 @@ $purple: #755f73;
   background-color: $button;
   border: $purple 1.5px;
   box-shadow: 0 0 10px $button;
-  width: 80%;
+  width: 50%;
+  height: 15%;
   @include display-center();
   font-family: "Poiret One", cursive;
   font-weight: bolder;
@@ -39,7 +44,7 @@ $purple: #755f73;
   font-weight: bolder;
   margin: 4%;
   letter-spacing: 2px;
-  text-indent: 4%;
+  @include display-center();
 }
 
 .title-r {
@@ -63,13 +68,14 @@ $purple: #755f73;
   .sec-recipe {
     display: flex;
     flex-wrap: wrap;
+    @include display-center();
   }
 }
 
 .sec-avalanche {
   @include display-center();
-  margin: 5%;
-  flex-direction: row-reverse;
+  margin: 4%;
+  flex-direction: row;
 }
 
 @media only screen and (max-width: 768px) {
@@ -80,7 +86,7 @@ $purple: #755f73;
 }
 
 .text-r {
-  // padding: 2%;
+  padding: 2%;
   margin: 4%;
   color: $purple;
   font-family: "Open Sans", sans-serif;
@@ -91,9 +97,11 @@ $purple: #755f73;
 
 video {
   border-radius: 1%;
+  margin: 4%;
+  @include display-center();
 }
 .sec-artistry {
-  margin: 8%;
+  margin: 4%;
   padding: 2%;
   color: $purple;
   font-family: "Open Sans", sans-serif;
@@ -103,18 +111,18 @@ video {
 }
 
 .link {
-  color: $pink;
+  background-color: $button;
+  border: $purple 1.5px;
+  box-shadow: 0 0 10px $button;
+  width: 100%;
+  padding: 5%;
+  @include display-center();
   font-family: "Poiret One", cursive;
   font-weight: bolder;
-  box-shadow: 0 0 10px $button;
-  height: 7vh;
-  width: 30vw;
-  @include display-center();
-  background-color: $button;
-  padding: 4%;
+  color: $pink;
 }
 
 .end {
   @include display-center();
-  margin: 4%;
+  margin: 3%;
 }

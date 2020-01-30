@@ -11,6 +11,11 @@ $purple: #755f73;
   }
 }
 
+@mixin effect {
+  background-color: $almond;
+  color: $purple;
+}
+
 @mixin display-center {
   display: flex;
   justify-content: center;
@@ -28,6 +33,7 @@ $purple: #755f73;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 10px $button;
 }
 
 .about-text {
@@ -47,17 +53,20 @@ $purple: #755f73;
 }
 
 .resume {
-  font-family: "Poiret One", cursive;
-  border: none;
-  font-weight: bolder;
-  border: 1.5px solid $purple;
-  border-radius: 2%;
   background-color: $button;
-  margin: 2%;
-  font-weight: bolder;
-  width: 150px;
-  color: $purple;
+  border: $purple 1.5px;
+  box-shadow: 0 0 10px $button;
+  width: 100%;
   padding: 5%;
+  margin: 2%;
+  @include display-center();
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: $pink;
+
+  &:hover {
+    @include effect();
+  }
 }
 
 .about-info {
@@ -67,11 +76,31 @@ $purple: #755f73;
 .funfacts {
   @include display-center();
   margin: 2%;
+  flex-direction: column;
 }
 .facts {
   margin: 4%;
   text-align: center;
-  width: 32%;
+  width: 55%;
   color: $purple;
   font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.cuties {
+  height: 200px;
+  width: 150px;
+  border-radius: 2%;
+  box-shadow: 0 0 10px $button;
+}
+
+.sec-fun {
+  @include display-center();
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-fun {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

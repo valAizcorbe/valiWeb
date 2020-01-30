@@ -1,3 +1,13 @@
+@media only screen and (max-width: 812px) {
+  .body-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .body-contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,12 +55,31 @@
   height: 37px;
   width: 37px;
   border-radius: 50%;
-  background-color: #525d79;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2%;
 }
 
 .linkedin {
   height: 37px;
   width: 37px;
+  margin: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .phrase {
@@ -59,25 +88,24 @@
 }
 
 .button-contact {
-  font-family: "Poiret One", cursive;
-  font-weight: bolder;
-  font-size: 110%;
-  border: 1.5px solid #755f73;
-  border-radius: 2%;
-  color: #755f73;
   background-color: #e0c3b9;
-  padding: 7%;
-  margin: 4%;
+  border: #755f73 1.5px;
+  -webkit-box-shadow: 0 0 10px #e0c3b9;
+          box-shadow: 0 0 10px #e0c3b9;
+  width: 100%;
+  padding: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 11vh;
-  width: 30vw;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: #b68fa2;
+  margin: 2%;
 }
 /*# sourceMappingURL=contact.css.map */

@@ -12,8 +12,8 @@ function Projects() {
         </a>
         <section className="sec-recipe">
           <video
-            width="320"
-            height="240"
+            width="400"
+            height="290"
             controls
             src={recipe}
             type="video/mp4"
@@ -33,13 +33,13 @@ function Projects() {
       <div className="avalanche">
         {" "}
         <a href="https://github.com/valAizcorbe/Avalanche">
-          <h2 className="title-r">Avalanche</h2>
+          <h2 className="title">Avalanche</h2>
         </a>
         <section className="sec-avalanche">
           {" "}
           <video
-            width="320"
-            height="240"
+            width="400"
+            height="290"
             controls
             src={avalanche}
             type="video/mp4"
