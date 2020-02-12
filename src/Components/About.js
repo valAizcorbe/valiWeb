@@ -22,7 +22,7 @@ function About() {
             my first opportunity as a developer, where I can apply my knowledge,
             learn new skills and help create powerful products.
           </span>
-          <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A35c9223a-d9c7-4b3e-829f-386c3efa192a">
+          <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aaf429d75-b6a8-408f-9191-8a96fc78eb31">
             <button className="resume">
               <h3>SEE RESUME</h3>
             </button>
