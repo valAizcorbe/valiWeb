@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import pic from "../images/about-pic.jpg";
 import cuties from "../images/cuties.jpg";
-import hair from "../images/hair.jpg";
+import cake from "../images/cake.jpg";
 import cup from "../images/cup.jpg";
 import "../style/about.css";
 function About() {
@@ -42,9 +42,9 @@ function About() {
           <p className="facts">Playing with my puppies: Nebula and Phoebe</p>
         </div>
         <div className="funfacts">
-          <img src={hair} alt="cuties" className="cuties" />
+          <img src={cake} alt="cuties" className="cuties" />
 
-          <p className="facts">Wear fun hair colors</p>
+          <p className="facts">Bake some yummy food</p>
         </div>
       </div>
       <hr className="dotted" />
