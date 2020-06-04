@@ -47,13 +47,6 @@ $purple: #755f73;
   margin: 2%;
 }
 
-.linkedin {
-  height: 37px;
-  width: 37px;
-  margin: 2%;
-  @include display-center();
-}
-
 .phrase {
   color: $purple;
   font-family: "Open Sans", sans-serif;

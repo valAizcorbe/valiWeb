@@ -118,7 +118,6 @@ li {
   border: #755f73 1.5px;
   -webkit-box-shadow: 0 0 10px #e0c3b9;
           box-shadow: 0 0 10px #e0c3b9;
-  width: 100%;
   padding: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,6 +131,7 @@ li {
   font-family: "Poiret One", cursive;
   font-weight: bolder;
   color: #b68fa2;
+  margin: 5px;
 }
 
 .button:hover {

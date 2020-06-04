@@ -21,8 +21,8 @@
 }
 
 .pic {
-  height: 40%;
-  width: 40%;
+  height: 60%;
+  width: 60%;
   border-radius: 1%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,7 +35,13 @@
           align-items: center;
   -webkit-box-shadow: 0 0 10px #e0c3b9;
           box-shadow: 0 0 10px #e0c3b9;
-  padding: 5%;
+  margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+  .pic {
+    margin: 0;
+  }
 }
 
 .about-text {

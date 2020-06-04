@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import recipe from "../images/recipe.mp4";
 import avalanche from "../images/avalanche.mp4";
 import "../style/project.css";

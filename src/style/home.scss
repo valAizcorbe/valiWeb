@@ -100,13 +100,12 @@ li {
   background-color: $button;
   border: $purple 1.5px;
   box-shadow: 0 0 10px $button;
-  width: 100%;
   padding: 5%;
   @include display-center();
   font-family: "Poiret One", cursive;
   font-weight: bolder;
   color: $pink;
-
+  margin: 5px;
   &:hover {
     @include effect();
   }
