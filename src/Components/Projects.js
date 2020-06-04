@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import recipe from "../images/recipe.mp4";
 import avalanche from "../images/avalanche.mp4";
 import "../style/project.css";
+import { FaGithub } from "react-icons/fa";
+
 function Projects() {
   return (
     <body className="project">
@@ -12,8 +14,8 @@ function Projects() {
         </a>
         <section className="sec-recipe">
           <video
-            width="400"
-            height="290"
+            width="500"
+            height="400"
             controls
             src={recipe}
             type="video/mp4"
@@ -24,7 +26,9 @@ function Projects() {
             weeks of experience using: <b>REACT, JAVASCRIPT, CSS, HTML, NODE</b>{" "}
             and <b>EXPRESS.</b>
             <a href="https://github.com/valAizcorbe/NODB">
-              <h2 className="link">See it on github</h2>
+              <button className="button">
+                See it on github <FaGithub />
+              </button>
             </a>
           </p>
         </section>
@@ -38,8 +42,8 @@ function Projects() {
         <section className="sec-avalanche">
           {" "}
           <video
-            width="400"
-            height="290"
+            width="500"
+            height="400"
             controls
             src={avalanche}
             type="video/mp4"
@@ -55,7 +59,9 @@ function Projects() {
             </b>{" "}
             and <b>CHARTJS.</b>
             <a href="https://github.com/valAizcorbe/Avalanche">
-              <h2 className="link">See it on github</h2>
+              <button className="button">
+                See it on github <FaGithub />
+              </button>
             </a>
           </p>
         </section>{" "}
@@ -76,19 +82,15 @@ function Projects() {
           </b>{" "}
           and <b>MASSIVE.</b>
           <a href="http://138.68.232.15:4200/#/">
-            <h2 className="link">Visit our website</h2>
+            <button className="button">Visit our website</button>
           </a>
         </p>
       </div>
       <hr className="dotted" />
-      <a href="https://github.com/settings/profile" className="end">
-        <button className="github-button">
-          <h1>See more about my work</h1>
-          {""}
-          <img
-            className="github"
-            src="http://pngimg.com/uploads/github/github_PNG40.png"
-          />
+      <a href="https://github.com/valAizcorbe" className="end">
+        <button className="button">
+          See more about my work
+          <FaGithub />
         </button>
       </a>
     </body>

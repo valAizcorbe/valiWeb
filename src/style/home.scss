@@ -30,6 +30,7 @@ $purple: #755f73;
   margin: 0;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .selfie {
@@ -65,37 +66,50 @@ $purple: #755f73;
   flex-direction: column;
   margin: 1%;
 }
-.text-skills {
+
+.column-1 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   font-weight: bold;
-
-  @include text();
-}
-.column-1 {
-  margin: 5%;
+  list-style: none;
+  // margin: 2%;
   text-align: center;
+  @include text();
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 2%;
+  list-style-type: none;
 }
 
 .text-end {
   @include title();
   text-align: center;
-
   font-weight: bolder;
 }
 
-.information {
+.text-skills {
+  min-width: 400px;
+  // flex-wrap: wrap;
+  margin-right: 35px;
+}
+
+.button {
   background-color: $button;
   border: $purple 1.5px;
   box-shadow: 0 0 10px $button;
   width: 100%;
   padding: 5%;
-
   @include display-center();
   font-family: "Poiret One", cursive;
   font-weight: bolder;
   color: $pink;
+
+  &:hover {
+    @include effect();
+  }
 }
 
 hr.dotted {
@@ -120,19 +134,6 @@ footer {
   margin-bottom: 2%;
   background-color: $almond;
   text-align: center;
-}
-
-.contact {
-  background-color: $button;
-  border: $purple 1.5px;
-  box-shadow: 0 0 10px $button;
-  width: 100%;
-  padding: 5%;
-
-  @include display-center();
-  font-family: "Poiret One", cursive;
-  font-weight: bolder;
-  color: $pink;
 }
 
 .contact:hover {

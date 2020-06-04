@@ -15,9 +15,7 @@ function Home() {
           as a developer.
         </p>
         <Link to="/about">
-          <button className="information">
-            <h3>LEARN MORE</h3>
-          </button>
+          <button className="button">LEARN MORE</button>
         </Link>
       </div>
       <hr className="dotted" />
@@ -28,31 +26,30 @@ function Home() {
         </p>
 
         <div className="text-skills">
-          <div className="column-1">
-            <p className="skills">HTML5 </p>
-            <p className="skills">CSS3/SASS</p>
+          <ul className="column-1">
+            <li className="skills">HTML5 </li>
+            <li className="skills">CSS3/SASS</li>
+            <li className="skills">NODE</li>
+            <li className="skills">BCRYPT </li>
+            <li className="skills">HEROKU</li>
+          </ul>
 
-            <p className="skills">NODE</p>
-            <p className="skills">BCRYPT </p>
-            <p className="skills">HEROKU</p>
-          </div>
+          <ul className="column-1">
+            <li className="skills">EXPRESS</li>
+            <li c0lassName="skills">SESSIONS</li>
+            <li className="skills">JAVASCRIPT</li>
+            <li className="skills">REACT</li>
+            <li className="skills">POSTMAN</li>
+            <li className="skills">VS CODE</li>
+          </ul>
 
-          <div className="column-1">
-            <p className="skills">EXPRESS</p>
-            <p className="skills">SESSIONS</p>
-            <p className="skills">JAVASCRIPT</p>
-            <p className="skills">REACT</p>
-            <p className="skills">POSTMAN</p>
-            <h3 className="text-final">VS CODE</h3>
-          </div>
-
-          <div className="column-1">
-            <p className="skills">CHARTJS </p>
-            <p className="skills">SQL</p>
-            <p className="skills">REDUX</p>
-            <p className="skills">JEST </p>
-            <p className="skills">MASSIVE</p>
-          </div>
+          <ul className="column-1">
+            <li className="skills">CHARTJS </li>
+            <li className="skills">SQL</li>
+            <li className="skills">REDUX</li>
+            <li className="skills">JEST </li>
+            <li className="skills">MASSIVE</li>
+          </ul>
         </div>
       </div>
       <hr className="dotted" />
@@ -66,9 +63,7 @@ function Home() {
           If you have a project in mind, I could help! Let's get in touch.
         </p>
         <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
-          <button className="contact">
-            <h3>CONTACT ME</h3>
-          </button>
+          <button className="button">CONTACT ME</button>
         </a>
       </footer>
     </body>

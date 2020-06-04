@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import pic from "../images/about-pic.jpg";
 import cuties from "../images/cuties.jpg";
 import cake from "../images/cake.jpg";
@@ -23,7 +23,7 @@ function About() {
             learn new skills and help create powerful products.
           </span>
           <a href="https://docs.google.com/document/d/1cWf7DJFnnC6KyRGsT5gtZbsMG62FkXeUWxAx2on5x64/edit?usp=sharing">
-            <button className="resume">
+            <button className="button">
               <h3>SEE RESUME</h3>
             </button>
           </a>
@@ -58,7 +58,7 @@ function About() {
           If you have a project in mind, I could help! Let's get in touch.
         </p>
         <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
-          <button className="contact">
+          <button className="button">
             <h3>CONTACT ME</h3>
           </button>
         </a>

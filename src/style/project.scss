@@ -25,18 +25,6 @@ $purple: #755f73;
   margin: 1%;
 }
 
-.github-button {
-  background-color: $button;
-  border: $purple 1.5px;
-  box-shadow: 0 0 10px $button;
-  width: 50%;
-  height: 15%;
-  @include display-center();
-  font-family: "Poiret One", cursive;
-  font-weight: bolder;
-  color: $purple;
-}
-
 .title {
   color: $purple;
   font-family: "Poiret One", cursive;
@@ -61,7 +49,7 @@ $purple: #755f73;
 
 .sec-recipe {
   @include display-center();
-  margin: 5%;
+  margin: 4%;
 }
 
 @media only screen and (max-width: 768px) {
