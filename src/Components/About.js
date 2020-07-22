@@ -22,7 +22,7 @@ function About() {
             my first opportunity as a developer, where I can apply my knowledge,
             learn new skills and help create powerful products.
           </span>
-          <a href="https://docs.google.com/document/d/1cWf7DJFnnC6KyRGsT5gtZbsMG62FkXeUWxAx2on5x64/edit?usp=sharing">
+          <a href="https://docs.google.com/dhttps://docs.google.com/document/d/1cWf7DJFnnC6KyRGsT5gtZbsMG62FkXeUWxAx2on5x64/edit?usp=sharingcument/d/1cWf7DJFnnC6KyRGsT5gtZbsMG62FkXeUWxAx2on5x64/edit?usp=sharing">
             <button className="button">
               <h3>SEE RESUME</h3>
             </button>
