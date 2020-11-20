@@ -1,22 +1,25 @@
-import React, { Component } from "react";
+import React from "react";
 import avila from "../images/avila.jpg";
 import { Link } from "react-router-dom";
 import "../style/home.css";
+import Footer from "./footer";
 function Home() {
   return (
     <body className="home">
       <div className="pic-about">
         <img className="selfie" src={avila} alt="selfie" />
-        <h1 className="text-end"> Hi! I'm Valeria,</h1>
-        <p className="text-about">
-          I'm a bilingual full stack web developer based in American Fork, Utah.
-          I'm passionate about my career and can't wait to learn more about the
-          latest technologies available, best coding practices and keep growing
-          as a developer.
-        </p>
-        <Link to="/about">
-          <button className="button">LEARN MORE</button>
-        </Link>
+        <section className="right-column">
+          <h1 className="text-end"> Hi! I'm Valeria,</h1>
+          <p className="text-about">
+            I'm a bilingual full stack web developer based in American Fork,
+            Utah. I'm passionate about my career and can't wait to learn more
+            about the latest technologies available, best coding practices and
+            keep growing as a developer.
+          </p>
+          <Link to="/about">
+            <button className="buttonP">LEARN MORE</button>
+          </Link>
+        </section>
       </div>
       <hr className="dotted" />
 
@@ -53,19 +56,7 @@ function Home() {
         </div>
       </div>
       <hr className="dotted" />
-      <footer>
-        {" "}
-        <h2 className="text-end">
-          {" "}
-          Hey! I'm currently available for freelance work
-        </h2>
-        <p className="text-final">
-          If you have a project in mind, I could help! Let's get in touch.
-        </p>
-        <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
-          <button className="button">CONTACT ME</button>
-        </a>
-      </footer>
+      <Footer />
     </body>
   );
 }

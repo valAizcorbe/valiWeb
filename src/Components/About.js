@@ -4,6 +4,8 @@ import cuties from "../images/cuties.jpg";
 import cake from "../images/cake.jpg";
 import cup from "../images/cup.jpg";
 import "../style/about.css";
+import Footer from "./footer/index";
+
 function About() {
   return (
     <p className="about-page">
@@ -23,7 +25,7 @@ function About() {
             learn new skills and help create powerful products.
           </span>
           <a href="https://docs.google.com/dhttps://docs.google.com/document/d/1cWf7DJFnnC6KyRGsT5gtZbsMG62FkXeUWxAx2on5x64/edit?usp=sharingcument/d/1cWf7DJFnnC6KyRGsT5gtZbsMG62FkXeUWxAx2on5x64/edit?usp=sharing">
-            <button className="button">
+            <button className="buttonP">
               <h3>SEE RESUME</h3>
             </button>
           </a>
@@ -48,21 +50,7 @@ function About() {
         </div>
       </div>
       <hr className="dotted" />
-      <footer>
-        {" "}
-        <h2 className="text-end">
-          {" "}
-          Hey! I'm currently available for freelance work
-        </h2>
-        <p className="text-final">
-          If you have a project in mind, I could help! Let's get in touch.
-        </p>
-        <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
-          <button className="button">
-            <h3>CONTACT ME</h3>
-          </button>
-        </a>
-      </footer>
+      <Footer />
     </p>
   );
 }

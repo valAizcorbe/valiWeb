@@ -8,8 +8,11 @@
 
 .selfie {
   height: 30%;
+  min-height: 300px;
+  min-width: 300px;
   width: 30%;
-  border-radius: 50%;
+  border-radius: 25%;
+  margin: 2%;
 }
 
 .pic-about {
@@ -24,19 +27,38 @@
           align-items: center;
   margin: 2%;
   background-color: #f3dbcf;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
+  margin: 2%;
+  width: 60%;
 }
 
 .text-about {
   text-align: center;
   color: #755f73;
   font-family: "Open Sans", sans-serif;
-  margin: 2%;
-  padding: 2%;
+  margin: 4%;
+  max-width: 70%;
+  min-width: 300px;
 }
 
 .text-final {
@@ -184,5 +206,15 @@ footer {
 
 html {
   background-color: #f3dbcf;
+}
+
+@media only screen and (max-width: 900px) {
+  .pic-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=home.css.map */

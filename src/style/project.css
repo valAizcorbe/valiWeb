@@ -191,4 +191,28 @@ video {
           align-items: center;
   margin: 3%;
 }
+
+.buttonP {
+  background-color: #e0c3b9;
+  border: #755f73 1.5px;
+  -webkit-box-shadow: 0 0 10px #e0c3b9;
+          box-shadow: 0 0 10px #e0c3b9;
+  width: 250px;
+  height: 65px;
+  padding: 5%;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: #b68fa2;
+  margin-top: 4%;
+  font-size: larger;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=project.css.map */

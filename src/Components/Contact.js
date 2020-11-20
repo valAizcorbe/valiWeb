@@ -3,22 +3,25 @@ import "../style/contact.css";
 import redhead from "../images/redhead.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
 function Contact() {
   return (
     <body className="body-contact">
-      <img src={redhead} className="redhead" />
+      <img src={redhead} className="redhead" alt="redhead" />
       <div className="info-contact">
         <h2 className="phrase">Let's get in contact</h2>
 
         <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
-          <button className="button">
-            Send me an email <MdEmail />
+          <button className="buttonP">
+            Send me an email
+            <MdEmail />
           </button>
         </a>
 
         <a href="https://www.linkedin.com/in/valeriaaizcorbe/">
-          <button className="button">
-            Find me in Linkedin <FaLinkedinIn />
+          <button className="buttonP">
+            Find me in Linkedin
+            <FaLinkedinIn />
           </button>
         </a>
       </div>

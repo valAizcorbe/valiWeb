@@ -35,23 +35,35 @@ $purple: #755f73;
 
 .selfie {
   height: 30%;
+  min-height: 300px;
+  min-width: 300px;
   width: 30%;
-  border-radius: 50%;
+  border-radius: 25%;
+  margin: 2%;
 }
 
 .pic-about {
   @include display-center();
   margin: 2%;
   background-color: $almond;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
+  // width: 70%;
+}
+
+.right-column {
+  @include display-center();
+  flex-direction: column;
+  margin: 2%;
+  width: 60%;
 }
 
 .text-about {
   text-align: center;
   @include text();
-  margin: 2%;
-  padding: 2%;
+  margin: 4%;
+  max-width: 70%;
+  min-width: 300px;
 }
 
 .text-final {
@@ -73,7 +85,7 @@ $purple: #755f73;
   justify-content: space-evenly;
   font-weight: bold;
   list-style: none;
-  // margin: 2%;
+
   text-align: center;
   @include text();
   flex-wrap: wrap;
@@ -92,7 +104,6 @@ li {
 
 .text-skills {
   min-width: 400px;
-  // flex-wrap: wrap;
   margin-right: 35px;
 }
 
@@ -142,4 +153,11 @@ footer {
 
 html {
   background-color: $almond;
+}
+
+@media only screen and (max-width: 900px) {
+  .pic-about {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

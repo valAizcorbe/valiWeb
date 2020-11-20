@@ -3,6 +3,7 @@ import recipe from "../images/recipe.mp4";
 import avalanche from "../images/avalanche.mp4";
 import "../style/project.css";
 import { FaGithub } from "react-icons/fa";
+import { MdCode } from "react-icons/md";
 
 function Projects() {
   return (
@@ -26,8 +27,9 @@ function Projects() {
             weeks of experience using: <b>REACT, JAVASCRIPT, CSS, HTML, NODE</b>{" "}
             and <b>EXPRESS.</b>
             <a href="https://github.com/valAizcorbe/NODB">
-              <button className="button">
-                See it on github <FaGithub />
+              <button className="buttonP">
+                <MdCode />
+                Code <FaGithub />
               </button>
             </a>
           </p>
@@ -59,8 +61,9 @@ function Projects() {
             </b>{" "}
             and <b>CHARTJS.</b>
             <a href="https://github.com/valAizcorbe/Avalanche">
-              <button className="button">
-                See it on github <FaGithub />
+              <button className="buttonP">
+                <MdCode />
+                Code <FaGithub />
               </button>
             </a>
           </p>
@@ -82,17 +85,25 @@ function Projects() {
           </b>{" "}
           and <b>MASSIVE.</b>
           <a href="http://138.68.232.15:4200/#/">
-            <button className="button">Visit our website</button>
+            <button className="buttonP">Visit our website</button>
+          </a>{" "}
+          <a href="https://github.com/VRTS-group/VRTS">
+            <button className="buttonP">
+              <MdCode />
+              Code <FaGithub />
+            </button>
           </a>
         </p>
       </div>
       <hr className="dotted" />
-      <a href="https://github.com/valAizcorbe" className="end">
-        <button className="button">
-          See more about my work
-          <FaGithub />
-        </button>
-      </a>
+      <footer className="end">
+        <a href="https://github.com/valAizcorbe">
+          <button className="buttonP">
+            {" "}
+            <MdCode /> More code <FaGithub />
+          </button>
+        </a>
+      </footer>
     </body>
   );
 }
