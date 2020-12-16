@@ -10,7 +10,7 @@ function About() {
   return (
     <p className="about-page">
       <div className="about">
-        <img src={pic} alt="pic" className="pic" />
+        {/* <img src={pic} alt="pic" className="pic" /> */}
         <div className="about-text">
           <h1 className="text-title">Hello there,</h1>{" "}
           <h2 className="text-title">thank you for the visit ...</h2>
