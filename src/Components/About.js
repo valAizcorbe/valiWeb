@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../images/about-pic.jpg";
+// import pic from "../images/about-pic.jpg";
 import cuties from "../images/cuties.jpg";
 import cake from "../images/cake.jpg";
 import cup from "../images/cup.jpg";
