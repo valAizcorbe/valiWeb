@@ -11,7 +11,7 @@ function Contact() {
       <div className="info-contact">
         <h2 className="phrase">Let's get in contact</h2>
 
-        <a href="mailto:valeria.aizcorbe@gmail.com? subject=subject text">
+        <a href="mailto:valeria.aizcorbe@gmail.com?">
           <button className="buttonP">
             Send me an email
             <MdEmail />
